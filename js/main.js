@@ -32,4 +32,3 @@ window.addEventListener('scroll', _.throttle(function(){
     })
   }
 },300));
-// _.throttle(함수, 시간)
