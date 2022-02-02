@@ -65,6 +65,18 @@ new Swiper('.promotion .swiper-container', {
     nextEl: '.promotion .swiper-next'
   }
 });
+new Swiper('.awards .swiper-container',{
+  autoplay: true,
+  loop: true,
+  spaceBetween: 30,
+  slidesPerView: 5,
+  navigation:{
+    pervEl:'.awards .swiper-prev',
+    nextEl:'.awards .swiper-next',
+  }
+})
+
+
 
 const promotionEl = document.querySelector('.promotion');
 const promotionToggleBtn = document.querySelector('.toggle-promotion');;
