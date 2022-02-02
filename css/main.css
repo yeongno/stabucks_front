@@ -363,7 +363,6 @@ header .badges .badge {
 
 .notice .notice-line .inner {
   height: 62px;
-  border: 2px solid red;
   display: flex;
 }
 .notice .notice-line .inner__left {
@@ -426,6 +425,11 @@ header .badges .badge {
   height: 693px;
   background-color: #f6f5ef;
   position: relative;
+  transition: height .4s;
+  overflow: hidden;
+}
+.notice .promotion.hide{
+  height: 0;
 }
 .notice .promotion .swiper-container{
   width: calc(819px * 3 + 20px);
@@ -450,8 +454,7 @@ header .badges .badge {
   right: 0;
   margin: auto;
 }
-.notice .promotion .swiper-slide .btn.btn.btn--brown:hover{
-}
+
 .notice .promotion .swiper-pagination{
   bottom:40px;
   left: 0;
